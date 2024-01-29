@@ -1,0 +1,148 @@
+
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: skyblue;
+}
+.login{
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav-ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-right{
+  text-align: right;
+}
+.avatar{
+  width:45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.register, .addProduct, .updateProduct{
+  margin-left: 40%;
+  margin-top: 8%;
+}
+/* .addProduct{
+  margin-left: 40%;
+  margin-top: 8%;
+} */
+.register h1{
+  margin-left: 13%;
+}
+.addProduct h1{
+  margin-left: 90px;
+}
+.updateProduct h1{
+  margin-left: 55px;
+}
+.login h1{
+  margin-left: 13%;
+}
+.inputBox{
+  padding: 7px;
+  display: block;
+  border: 1px solid skyblue;
+  width: 300px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.appbutton{
+  margin: 20px;
+  width: 315px;
+  height: 33px;
+  padding: 3px;
+  background-color: skyblue;
+  border: solid 1px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.invalid-input{
+  font-size: 12px;
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.Table{
+  align-items: center;
+  
+  
+}
+.product-list ul{
+  margin: 0;
+}
+.App-link {
+  color: #61dafb;
+}
+/* .dltbtn{
+  height: 20px;
+  width: 72px;
+  font-size: 20px;
+  padding-top: 2px;
+  --bs-btn-padding-x:-0.24rem;
+  margin-bottom: 2px;
+} */
+.search-product-box{
+  width: 420px;
+  margin: 20px;
+  height: 29px;
+  border-radius: 20px;
+  padding-left: 20px;
+  border: solid 1px skyblue;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
